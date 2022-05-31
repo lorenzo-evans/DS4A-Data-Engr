@@ -10,7 +10,7 @@ import pandas as pd
 import time
 
 def render_page(url):
-    driver = webdriver.Chrome(r'/home/lorenzo/Documents/DS4A/WundergroundData.py/chromedriver.exe')
+    driver = webdriver.Chrome(r'path/chromedriver.exe')
     driver.get(url)
     time.sleep(3)
     r = driver.page_source
